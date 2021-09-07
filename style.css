@@ -114,19 +114,19 @@ body{
   }
   
   .hero-item {
-    background-image: url('spider.jpeg');
+    background-image: url('./imgs/spider.jpeg');
   }
   
   .standard-item:nth-child(2) {
-    background-image: url("EWjim.jpeg");
+    background-image: url("./imgs/EWjim.jpeg");
   }
   
   .standard-item:nth-child(3) {
-    background-image: url("shell.jpeg");
+    background-image: url("./imgs/shell.jpeg");
   }
   
   .standard-item:nth-child(4) {
-    background-image: url("heart.jpeg");
+    background-image: url("./imgs/heart.jpeg");
   }
   
   @supports (display: grid) {
