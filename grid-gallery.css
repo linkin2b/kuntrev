@@ -102,6 +102,11 @@
   bottom: 10px;
 }
 
+/* Control maximum width of expanded image*/
+.ib-image {
+  max-width: 55%;
+}
+
 @media (min-width: 478px) {
   .gg-box img:nth-child(2n):not(:last-of-type) {
     grid-row-end: span 2;
