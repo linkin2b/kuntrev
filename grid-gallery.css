@@ -104,7 +104,9 @@
 
 /* Control maximum width of expanded image */
 .ib-image {
-  max-width: 55%;
+  max-width: 50vmax;
+  height: auto;
+  margin-top: 10%;
 }
 
 @media (min-width: 478px) {

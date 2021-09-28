@@ -8,7 +8,7 @@ body{
     
     
 }
-.head{
+head{
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -16,7 +16,7 @@ body{
     align-items: center;
 
 }
-.main{
+main{
     display: block;
     height: 100px;
     flex-direction: column;
@@ -24,38 +24,21 @@ body{
     position:relative;
 }
 
-#tag{
-    
-    margin: auto;
-    padding: 20%;
-    background: black;
-    font-size: larger;
-    color: green;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
+
 .navbar {
     background-color:white ;
     background:transparent;
     position:fixed;
-    top: 1vw; 
-    left: 25%;
-    display:flex;
-    justify-content: space-between;
-    
+    display: flex;
+    justify-content: center;
+    width: auto;
     z-index:1;
-    
-      
-      
-
-      
+    text-align: center;
+    top: 1vh;
     }
   
   .navbar a {
-    float: left;
+    
     display: block;
     color:white;
     text-align: center;
@@ -69,7 +52,7 @@ body{
 
   a:hover{
       font-weight:bolder;
-      color: black;
+      color: gray;
 
       
   }
@@ -91,6 +74,7 @@ body{
     justify-content: center;
     text-align: center;
 }
-#imgsizer{
-    width: 30%;
+#pmain{
+    color: whitesmoke;
+    margin-top: 20%;
 }
