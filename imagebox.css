@@ -7,9 +7,14 @@
 body.imagebox {
     overflow: hidden;
 }
-
+.ib-image {
+    max-width: 50vmax;
+    max-height: 50vmax;
+    margin-top: 4%;
+    border-radius: 33%;
+  }
 img[data-imagebox] {
-    
+    border-radius: 33%;
     }
 
 #imagebox {
@@ -19,7 +24,8 @@ img[data-imagebox] {
 	right: 20px;
 	bottom: 20px;
 	left: 20px;
-    background-color: rgba(0, 0, 0, 0.87);
+    background-color: rgba(35, 40, 44, 0.774);
+    border-radius: 66%;
 	font-family: 'Helvetica Neue', 'Helvetica', sans-serif;
 
     * {
@@ -94,7 +100,7 @@ img[data-imagebox] {
             }
         }
 
-        .ib-image-wrapper {
+        #ib-image-wrapper {
         	opacity: 0;
         	z-index: 99995;
         	position: fixed;
