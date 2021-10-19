@@ -5,13 +5,16 @@
   </style>
   <script type="text/javascript">
       function rotateElemDown() {
-          document.querySelector('.navimg').style.transform = 'rotate(90deg)';
-          document.querySelector('.navimg').style.transformOrigin = '0% 60%';
+          document.querySelector('.navimg').style.cssText += `
+            transform: rotate(90deg);
+            transform-origin: 0% 60%;
+          `;
       }
 
       function rotateElemUp() {
-          document.querySelector('.navimg').style.transform = 'rotate(0deg)';
-          document.querySelector('.navimg').style.transformOrigin = '60 0';
+          document.querySelector('.navimg').style.cssText += `
+            transform: rotate(0deg);
+          `;
       }
   </script>
   <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
