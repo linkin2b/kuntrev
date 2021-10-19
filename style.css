@@ -65,14 +65,15 @@ main{
   .navimg{
       display: block;
       height: 100px;
+      padding-right: 10px;
       position:relative;
       border: solid #fff 3px;
       transition: transform .7s ease-in-out;
     }
-    .navimg:hover{
-        transform: rotate(90deg);
-        transform-origin: 0% 60%;
-    }
+    /*.navimg:hover{*/
+    /*    transform: rotate(90deg);*/
+    /*    transform-origin: 0% 60%;*/
+    /*}*/
 #content{
     margin-top: 11%;
     justify-content: center;
