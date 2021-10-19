@@ -1,8 +1,19 @@
-<style>
+  <style>
     html, body, pre, code, kbd, samp {
       font-family: 'Press Start 2P', cursive;
-}
-  </style> 
+    }
+  </style>
+  <script type="text/javascript">
+      function rotateElemDown() {
+          document.querySelector('.navimg').style.transform = 'rotate(90deg)';
+          document.querySelector('.navimg').style.transformOrigin = '0% 60%';
+      }
+
+      function rotateElemUp() {
+          document.querySelector('.navimg').style.transform = 'rotate(0deg)';
+          document.querySelector('.navimg').style.transformOrigin = '60 0';
+      }
+  </script>
   <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
   <link href="https://unpkg.com/nes.css/css/nes.css" rel="stylesheet" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -16,10 +27,10 @@
     <link rel="home" href="index.html">
     <link rel="faq" href="faq.html">
 
-    <div class="dropdown" > 
+    <div class="dropdown" onmouseenter="rotateElemDown(this)" onmouseleave="rotateElemUp(this)">
       <button class="dropbtn"> 
         <a href="index.html"><img src="image0.png" id="navimg" class="navimg"> </a>
-        </button>
+      </button>
         <div class="dropdown-content">
     <div > <a href="faq.html"> FAQ</a></div>
     <div > <a href="gallery.html"> Gallery</a></div>
